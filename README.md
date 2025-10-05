@@ -7,23 +7,23 @@
 &emsp;&emsp;1、文件操作：读、写、删  
 &emsp;&emsp;2、目录操作：创建、删除、遍历、获取目录下所有文件、获取目录下指定后缀的所有文件   
 &emsp;&emsp;3、时间操作：    
-&emsp;&emsp;&emsp;&emsp;1>、获取当前时间    
-&emsp;&emsp;&emsp;&emsp;2>、修改时间
-&emsp;&emsp;&emsp;&emsp;3>、获取指定时间的时间戳，   
-&emsp;&emsp;&emsp;&emsp;4>、将时间戳转换为指定的日期格式   
-4、线程操作：
-     1>、创建线程
-     2>、启动线程
-     3>、暂停线程
-     4>、终止线程，包括：强行退出、安全退出
-     5>、设置线程优先级
-     6>、线程锁管理
-     7>、线程信号量管理
-5、进程管理
-     1>、创建进程
-     2>、销毁进程
-     3>、进程通信：共享内存
-6、字符串处理
+&emsp;&emsp;&emsp1>、获取当前时间    
+&emsp;&emsp;&emsp;2>、修改时间     
+&emsp;&emsp;&emsp;3>、获取指定时间的时间戳，   
+&emsp;&emsp;&emsp;4>、将时间戳转换为指定的日期格式   
+&emsp;&emsp;4、线程操作：    
+&emsp;&emsp;&emsp;1>、创建线程     
+&emsp;&emsp;&emsp;2>、启动线程    
+&emsp;&emsp;&emsp;3>、暂停线程   
+&emsp;&emsp;&emsp;4>、终止线程，包括：强行退出、安全退出   
+&emsp;&emsp;&emsp;5>、设置线程优先级   
+&emsp;&emsp;&emsp;6>、线程锁管理   
+&emsp;&emsp;&emsp;7>、线程信号量管理    
+&emsp;&emsp;5、进程管理    
+&emsp;&emsp;&emsp;1>、创建进程
+&emsp;&emsp;&emsp;2>、销毁进程   
+&emsp;&emsp;&emsp;3>、进程通信：共享内存   
+&emsp;&emsp;6、字符串处理   
 	1>、支持Uncode和ansi之间切换，并不用修改代码
 	2>、字符串分割
 	4>、常用字符串处理：复制、拼接、剪切，查找，截取
