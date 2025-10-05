@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libiconv", "libiconv\libiconv.vcxproj", "{1BD10D86-FA39-4976-A1C9-89A04071E2DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Unicode|Win32 = Debug_Unicode|Win32
+		Debug_Unicode|x64 = Debug_Unicode|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release_Unicode|Win32 = Release_Unicode|Win32
+		Release_Unicode|x64 = Release_Unicode|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Debug_Unicode|x64.ActiveCfg = Debug_Unicode|x64
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Debug_Unicode|x64.Build.0 = Debug_Unicode|x64
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Debug|Win32.Build.0 = Debug|Win32
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Debug|x64.ActiveCfg = Debug|x64
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Debug|x64.Build.0 = Debug|x64
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Release_Unicode|x64.ActiveCfg = Release_Unicode|x64
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Release_Unicode|x64.Build.0 = Release_Unicode|x64
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Release|Win32.ActiveCfg = Release|Win32
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Release|Win32.Build.0 = Release|Win32
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Release|x64.ActiveCfg = Release|x64
+		{1BD10D86-FA39-4976-A1C9-89A04071E2DF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DD09EE8-E895-42B2-A820-6C022C09D2A4}
+	EndGlobalSection
+EndGlobal
