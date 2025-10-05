@@ -24,18 +24,18 @@
 &emsp;&emsp;&emsp;2>、销毁进程   
 &emsp;&emsp;&emsp;3>、进程通信：共享内存   
 &emsp;&emsp;6、字符串处理   
-	1>、支持Uncode和ansi之间切换，并不用修改代码
-	2>、字符串分割
-	4>、常用字符串处理：复制、拼接、剪切，查找，截取
-7、日志系统
-	1>、支持日志分级管理
-	2>、支持日志文件自动分割：在日志文件过大(超过1G时候，会自动创建新的日志文件)；当日志跨天的时候，也会自动生成新的日志文件。
-8、常用http、https访问接口封装
-	1>、get
-	2>、put
-	3>、post
-9、http协议解析封装
-	1、get
-	2、post
-	3、put
-10、加密接口封装，对openssl3.0加解密功能进行了二次封装，使之符合面向对象的调用风格
+&emsp;&emsp;&emsp;1>、支持Uncode和ansi之间切换，并不用修改代码   
+&emsp;&emsp;&emsp;2>、字符串分割   
+&emsp;&emsp;&emsp;4>、常用字符串处理：复制、拼接、剪切，查找，截取   
+&emsp;&emsp;7、日志系统   
+&emsp;&emsp;&emsp;1>、支持日志分级管理   
+&emsp;&emsp;&emsp;2>、支持日志文件自动分割：在日志文件过大(超过1G时候，会自动创建新的日志文件)；当日志跨天的时候，也会自动生成新的日志文件。    
+&emsp;&emsp;8、常用http、https访问接口封装   
+&emsp;&emsp;&emsp;1>、get    
+&emsp;&emsp;&emsp;2>、put    
+&emsp;&emsp;&emsp;3>、post    
+&emsp;&emsp;9、http协议解析封装    
+&emsp;&emsp;&emsp;1>、get     
+&emsp;&emsp;&emsp;2>、post   
+&emsp;&emsp;&emsp;3>、put   
+&emsp;&emsp;10、加密接口封装，对openssl3.0加解密功能进行了二次封装，使之符合面向对象的调用风格    
