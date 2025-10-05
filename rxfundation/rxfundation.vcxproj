@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1767d826-eb5f-4a37-aa6c-e68868e0a679}</ProjectGuid>
+    <RootNamespace>rxfundation</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\obj\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(OutDir)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\obj\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(OutDir)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\obj\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(OutDir)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\obj\$(Configuration)\$(ProjectName)\</OutDir>
+    <IntDir>$(OutDir)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_WIN32;_WIN32_;WIN32;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_CRT_NO_VA_START_VALIDATION;__KCP_CLIENT__;_CRT_NON_CONFORMING_SWPRINTFS;CURL_STATICLIB;USE_OPENSSL;_CRT_NON_CONFORMING_WCSTOK.;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\;.\include;.\include\fundation;..\lib3rd\tinyxml;..\lib3rd\libiconv\include;../include;..\lib3rd\OpenSSL\include;..\lib3rd\curl\include;..\lib3rd\zlib\include;..\lib3rd\sgdp\include\gnu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>..\lib\Win32\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\lib3rd\libiconv\lib\$(Platform)\$(Configuration);..\lib3rd\OpenSSL\lib;..\lib3rd\curl\lib\Debug;..\lib3rd\zipper\lib\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcurld.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_WIN32;_WIN32_;WIN32;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_CRT_NO_VA_START_VALIDATION;__KCP_CLIENT__;_CRT_NON_CONFORMING_SWPRINTFS;CURL_STATICLIB;USE_OPENSSL;_CRT_NON_CONFORMING_WCSTOK.;_CRT_NO_INLINE_DEPRECATED_WCSTOK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.\;.\include;.\include\fundation;..\lib3rd\tinyxml;..\lib3rd\libiconv\include;../include;..\lib3rd\OpenSSL\include;..\lib3rd\curl\include;..\lib3rd\zlib\include;..\lib3rd\sgdp\include\gnu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>..\lib\Win32\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\lib3rd\libiconv\lib\$(Platform)\$(Configuration);..\lib3rd\OpenSSL\lib;..\lib3rd\curl\lib\Release;..\lib3rd\zipper\lib\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libiconv.lib;libssl.lib;libcrypto.lib;libcurl.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_WIN32;_WIN32_;WIN32;WIN64;_WIN64;_WIN64_;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32_LEAN_AND_MEAN;_CRT_NO_VA_START_VALIDATION;__KCP_CLIENT__;_CRT_NON_CONFORMING_SWPRINTFS;CURL_STATICLIB;USE_OPENSSL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\;.\include;.\include\fundation;..\lib3rd\tinyxml;..\lib3rd\libiconv\include;../include;..\lib3rd\OpenSSL\include;..\lib3rd\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>..\lib\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\lib3rd\libiconv\lib\win64\debug;..\lib3rd\OpenSSL\lib;..\lib3rd\curl\lib\Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libiconv.lib;libcrypto.lib;libssl.lib;libcurld.lib;Wldap32.lib;Crypt32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_WIN32;_WIN32_;WIN32;WIN64;_WIN64;_WIN64_;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32_LEAN_AND_MEAN;FREEIMAGE_LIB;_CRT_NON_CONFORMING_SWPRINTFS;CURL_STATICLIB;USE_OPENSSL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\;.\include;.\include\fundation;..\lib3rd\tinyxml;..\lib3rd\libiconv\include;../include;..\lib3rd\OpenSSL\include;..\lib3rd\curl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>..\lib\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\lib3rd\libiconv\lib\win64\release;..\lib3rd\OpenSSL\lib;..\lib3rd\curl\lib\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libiconv.lib;libcrypto.lib;libssl.lib;libcurl.lib;Wldap32.lib;Crypt32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\fundation\char_conversion.h" />
+    <ClInclude Include="include\fundation\ConvertUTF.h" />
+    <ClInclude Include="include\fundation\encrypt\rxdesopenssl.h" />
+    <ClInclude Include="include\fundation\encrypt\rxmd5.h" />
+    <ClInclude Include="include\fundation\http\buffer.h" />
+    <ClInclude Include="include\fundation\http\httpresponseparser.h" />
+    <ClInclude Include="include\fundation\http\response.h" />
+    <ClInclude Include="include\fundation\http\rxhttpservice.h" />
+    <ClInclude Include="include\fundation\http\slice.h" />
+    <ClInclude Include="include\fundation\ringbuffer.h" />
+    <ClInclude Include="include\fundation\rxbase64coding.hpp" />
+    <ClInclude Include="include\fundation\rxconfig.h" />
+    <ClInclude Include="include\fundation\rxdir.h" />
+    <ClInclude Include="include\fundation\rxfile.h" />
+    <ClInclude Include="include\fundation\rxfilemapping.h" />
+    <ClInclude Include="include\fundation\rxfundation.h" />
+    <ClInclude Include="include\fundation\rxlogger.h" />
+    <ClInclude Include="include\fundation\rxmath.h" />
+    <ClInclude Include="include\fundation\rxminidump.h" />
+    <ClInclude Include="include\fundation\rxmutex.h" />
+    <ClInclude Include="include\fundation\rxnetutils.h" />
+    <ClInclude Include="include\fundation\rxprocess.h" />
+    <ClInclude Include="include\fundation\rxstring.h" />
+    <ClInclude Include="include\fundation\rxthread.h" />
+    <ClInclude Include="include\fundation\rxtime.h" />
+    <ClInclude Include="include\fundation\rxtimermgr.h" />
+    <ClInclude Include="include\fundation\rxtype.h" />
+    <ClInclude Include="include\fundation\rxutil.h" />
+    <ClInclude Include="include\fundation\StringCharset.h" />
+    <ClInclude Include="include\fundation\StringConvert.h" />
+    <ClInclude Include="include\fundation\StringUtil.h" />
+    <ClInclude Include="include\fundation\tinyxml2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\fundation\char_conversion.c" />
+    <ClCompile Include="src\fundation\ConvertUTF.cpp" />
+    <ClCompile Include="src\fundation\encrypt\rxdesopenssl.cpp" />
+    <ClCompile Include="src\fundation\encrypt\rxmd5.cpp" />
+    <ClCompile Include="src\fundation\http\buffer.cc" />
+    <ClCompile Include="src\fundation\http\rxhttpservice.cpp" />
+    <ClCompile Include="src\fundation\ringbuffer.c" />
+    <ClCompile Include="src\fundation\rxbase64coding.cpp" />
+    <ClCompile Include="src\fundation\rxdir.cpp" />
+    <ClCompile Include="src\fundation\rxfile.cpp" />
+    <ClCompile Include="src\fundation\rxfilemapping.cpp" />
+    <ClCompile Include="src\fundation\rxlogger.cpp" />
+    <ClCompile Include="src\fundation\rxmminidump.cpp" />
+    <ClCompile Include="src\fundation\rxnetutils.cpp" />
+    <ClCompile Include="src\fundation\rxprocess.cpp" />
+    <ClCompile Include="src\fundation\rxstring.cpp" />
+    <ClCompile Include="src\fundation\rxthread.cpp" />
+    <ClCompile Include="src\fundation\rxtime.cpp" />
+    <ClCompile Include="src\fundation\rxtimermgr.cpp" />
+    <ClCompile Include="src\fundation\rxutil.cpp" />
+    <ClCompile Include="src\fundation\StringCharset.cpp" />
+    <ClCompile Include="src\fundation\StringConvert.cpp" />
+    <ClCompile Include="src\fundation\StringUtil.cpp" />
+    <ClCompile Include="src\fundation\tinyxml2.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

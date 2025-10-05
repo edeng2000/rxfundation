@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\fundation">
+      <UniqueIdentifier>{b1488be9-259a-43d3-bccf-b59a014b91fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\fundation">
+      <UniqueIdentifier>{325cd20f-2601-4880-95a4-58776afa831f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\fundation\encrypt">
+      <UniqueIdentifier>{9876ebad-6383-4ee9-b655-9f59e22c6e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\fundation\encrypt">
+      <UniqueIdentifier>{87753f46-d122-4680-a4b0-52b2a627ec04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\fundation\http">
+      <UniqueIdentifier>{badd7459-c224-4b1f-a06c-ad9d70d2fb28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\fundation\http">
+      <UniqueIdentifier>{9e283a81-6597-4cb4-9a2d-c4ee84a92ad3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\fundation\rxconfig.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxfundation.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxnetutils.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxstring.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxthread.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxtype.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxutil.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxtime.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxlogger.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxprocess.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxbase64coding.hpp">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxdir.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxfile.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxmath.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxfilemapping.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxtimermgr.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxmutex.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\encrypt\rxdesopenssl.h">
+      <Filter>头文件\fundation\encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\encrypt\rxmd5.h">
+      <Filter>头文件\fundation\encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\http\rxhttpservice.h">
+      <Filter>头文件\fundation\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\http\httpresponseparser.h">
+      <Filter>头文件\fundation\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\http\response.h">
+      <Filter>头文件\fundation\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\http\buffer.h">
+      <Filter>头文件\fundation\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\http\slice.h">
+      <Filter>头文件\fundation\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\tinyxml2.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\rxminidump.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\char_conversion.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\ConvertUTF.h">
+      <Filter>源文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\StringCharset.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\StringConvert.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\StringUtil.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fundation\ringbuffer.h">
+      <Filter>头文件\fundation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\fundation\rxnetutils.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxstring.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxthread.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxutil.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxtime.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxlogger.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxprocess.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxbase64coding.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxdir.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxfile.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxfilemapping.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxtimermgr.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\encrypt\rxdesopenssl.cpp">
+      <Filter>源文件\fundation\encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\encrypt\rxmd5.cpp">
+      <Filter>源文件\fundation\encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\http\rxhttpservice.cpp">
+      <Filter>源文件\fundation\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\http\buffer.cc">
+      <Filter>源文件\fundation\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\tinyxml2.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\rxmminidump.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\char_conversion.c">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\ConvertUTF.cpp">
+      <Filter>头文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\StringCharset.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\StringConvert.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\StringUtil.cpp">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fundation\ringbuffer.c">
+      <Filter>源文件\fundation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
