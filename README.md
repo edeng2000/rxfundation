@@ -7,7 +7,7 @@
 &emsp;&emsp;1、文件操作：读、写、删  
 &emsp;&emsp;2、目录操作：创建、删除、遍历、获取目录下所有文件、获取目录下指定后缀的所有文件   
 &emsp;&emsp;3、时间操作：    
-&emsp;&emsp;&emsp1>、获取当前时间    
+&emsp;&emsp;&emsp;1>、获取当前时间    
 &emsp;&emsp;&emsp;2>、修改时间     
 &emsp;&emsp;&emsp;3>、获取指定时间的时间戳，   
 &emsp;&emsp;&emsp;4>、将时间戳转换为指定的日期格式   
