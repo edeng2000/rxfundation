@@ -20,7 +20,7 @@
 &emsp;&emsp;&emsp;6>、线程锁管理   
 &emsp;&emsp;&emsp;7>、线程信号量管理    
 &emsp;&emsp;5、进程管理    
-&emsp;&emsp;&emsp;1>、创建进程
+&emsp;&emsp;&emsp;1>、创建进程   
 &emsp;&emsp;&emsp;2>、销毁进程   
 &emsp;&emsp;&emsp;3>、进程通信：共享内存   
 &emsp;&emsp;6、字符串处理   
